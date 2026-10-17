@@ -1,0 +1,210 @@
+{
+ "audio_s": 335.57,
+ "quiet_gaps_tape_s": [
+  [
+   0.0,
+   0.2
+  ],
+  [
+   50.4,
+   53.35
+  ],
+  [
+   85.95,
+   87.05
+  ],
+  [
+   130.05,
+   131.25
+  ],
+  [
+   190.0,
+   191.6
+  ],
+  [
+   233.0,
+   234.45
+  ],
+  [
+   252.55,
+   253.65
+  ],
+  [
+   306.8,
+   308.25
+  ],
+  [
+   328.8,
+   329.25
+  ],
+  [
+   334.4,
+   335.75
+  ]
+ ],
+ "wavelength_m": 0.32487,
+ "pieces": [
+  {
+   "tape_s": [
+    198.4,
+    232.85
+   ],
+   "f_start_hz": 1505.9,
+   "f_end_hz": 1102.1,
+   "slope_hz_s_at_0_25_50_75_100pc": [
+    -12.45,
+    -12.4,
+    -11.98,
+    -11.17,
+    -9.98
+   ],
+   "los_accel_m_s2_at_0_25_50_75_100pc": [
+    4.04,
+    4.03,
+    3.89,
+    3.63,
+    3.24
+   ],
+   "fit_rms_hz": 2.13
+  },
+  {
+   "tape_s": [
+    234.6,
+    252.45
+   ],
+   "f_start_hz": 930.7,
+   "f_end_hz": 732.2,
+   "slope_hz_s_at_0_25_50_75_100pc": [
+    -10.72,
+    -10.97,
+    -11.16,
+    -11.3,
+    -11.37
+   ],
+   "los_accel_m_s2_at_0_25_50_75_100pc": [
+    3.48,
+    3.56,
+    3.63,
+    3.67,
+    3.69
+   ],
+   "fit_rms_hz": 1.03
+  },
+  {
+   "tape_s": [
+    253.8,
+    277.4
+   ],
+   "f_start_hz": 1093.4,
+   "f_end_hz": 862.7,
+   "slope_hz_s_at_0_25_50_75_100pc": [
+    -10.65,
+    -9.21,
+    -8.97,
+    -9.94,
+    -12.11
+   ],
+   "los_accel_m_s2_at_0_25_50_75_100pc": [
+    3.46,
+    2.99,
+    2.92,
+    3.23,
+    3.93
+   ],
+   "fit_rms_hz": 2.19
+  }
+ ],
+ "loss_of_signal": {
+  "tape_s": 277.594,
+  "tape_mmss": "4:37.594",
+  "level_db_275.5_276.5": 23.2,
+  "level_db_last_0.5s": 9.4,
+  "slope_hz_s_at_end": -12.11,
+  "time_call": {
+   "tape_s": [
+    258.4,
+    260.6
+   ],
+   "said": "15:50, 20 seconds"
+  },
+  "tape_s_from_time_call": [
+   17.0,
+   19.2
+  ]
+ },
+ "image_line_spacing_hz": [
+  785.7,
+  786.05,
+  786.7
+ ],
+ "band": {
+  "piece1": {
+   "windows": 34,
+   "mean_above_vs_below_dB": -0.33,
+   "windows_over_3dB": 0,
+   "windows_below_0dB": 21
+  },
+  "piece2": {
+   "windows": 17,
+   "mean_above_vs_below_dB": -0.83,
+   "windows_over_3dB": 1,
+   "windows_below_0dB": 11
+  },
+  "piece3": {
+   "windows": 23,
+   "mean_above_vs_below_dB": 4.45,
+   "windows_over_3dB": 18,
+   "windows_below_0dB": 1
+  },
+  "piece3_clean": {
+   "from_tape_s": 260.5,
+   "windows": 16,
+   "mean_above_vs_below_dB": 5.61,
+   "windows_over_3dB": 15,
+   "windows_below_0dB": 0,
+   "centre_offset_hz_fit_at_start_end": [
+    176.0,
+    85.0
+   ]
+  },
+  "control_no_carrier": {
+   "windows": 23,
+   "mean_above_vs_below_dB": -1.04
+  }
+ },
+ "earth_elevation_deg_at_site": {
+  "17N 60E": 23.1,
+  "16N 57E": 26.0,
+  "12N 60E": 23.3
+ },
+ "closing_speed_m_s_per_100hz": [
+  37.1,
+  41.4
+ ],
+ "orbit_segments": [
+  {
+   "tape_s": [
+    88,
+    130
+   ],
+   "what": "20 Jul, 40th orbit, just after emerging from behind the Moon",
+   "f_hz": 2115.8,
+   "drift_hz_s": -0.213,
+   "curvature_hz_s2": -0.0094
+  },
+  {
+   "tape_s": [
+    132,
+    190
+   ],
+   "what": "21 Jul, start of the 52nd orbit",
+   "f_hz": 2057.8,
+   "drift_hz_s": -0.461,
+   "curvature_hz_s2": -0.0034
+  }
+ ],
+ "hum_hz": {
+  "descent": 98.25,
+  "orbit_20jul": 98.58
+ }
+}
